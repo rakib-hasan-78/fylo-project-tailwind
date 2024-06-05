@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +13,7 @@
       <div class="flex flex-col md:flex-row justify-between md:mt-4 space-x-5">
         <div class="bg-logo-light-mode dark:bg-logo-dark-mode bg-no-repeat bg-center w-48 h-20 mx-auto md:mx-0"></div>
         <div class="flex justify-center items-center space-x-4 md:space-x-10 mt-3">
-          <a href="#" id="features" class="hover:text-cyan-500 duration-200 capitalize transition-all text-sm">features</a>
+          <a href="#Features" id="features" class="hover:text-cyan-500 duration-200 capitalize transition-all text-sm">features</a>
           <a href="#" id="testimonials" class="hover:text-cyan-500 duration-200 capitalize transition-all text-sm">testimonials</a>
           <button id="toggle-btn" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 hover:dark:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg transition-all duration-200 text-sm">
 
@@ -57,6 +57,62 @@
         Access them wherever you need, share and collaborate with friends
         family, and co-workers.</p>
         <button class="capitalize p-3 w-52 bg-cyan-500 mx-auto flex justify-center items-center rounded-full font-bold transition-all ease-in-out transform hover:scale-95">get started</button>
+    </div>
+  </section>
+  <section id="Features" class="bg-gray-50 dark:bg-gray-900 py-20">
+    <div class="container max-w-6xl mx-auto">
+      <div class="grid gap-10 grid-cols-1 md:grid-cols-6 pb-10">
+        <!-- first feature  -->
+        <div class="col-span-full md:col-span-3">
+          <div class="flex flex-col p-6 justify-center items-center">
+            <div class="h-24 mb-3">
+              <img src="./src/images/icon-access-anywhere.svg" alt="icon-access-anywhere">
+            </div>
+            <div class="mt-2">
+              <h3 class="text-xl p-4 font-bold capitalize text-center">Access your file from anywhere</h3>
+              <p class="text-center capitalize max-w-md leading-normal text-sm md:text-base">The ability to use a smartphone, tablet, or computer to access
+                your account means your files follow you everywhere.</p>
+            </div>
+          </div>
+        </div>
+        <!-- second feature  -->
+        <div class="col-span-full md:col-span-3">
+          <div class="flex flex-col p-6 justify-center items-center">
+            <div class="h-24 mb-3">
+              <img src="./src/images/icon-security.svg" alt="icon-access-security">
+            </div>
+            <div class="mt-2">
+              <h3 class="text-xl p-4 font-bold capitalize text-center">Access your file from anywhere</h3>
+              <p class="text-center capitalize max-w-md leading-normal text-sm md:text-base">The ability to use a smartphone, tablet, or computer to access
+                your account means your files follow you everywhere.</p>
+            </div>
+          </div>
+        </div>
+        <!-- third feature  -->
+        <div class="col-span-full md:col-span-3">
+          <div class="flex flex-col p-6 justify-center items-center">
+            <div class="h-24 mb-3">
+              <img src="./src/images/icon-collaboration.svg" alt="icon-collaboration">
+            </div>
+            <div class="mt-2">
+              <h3 class="text-xl p-4 font-bold capitalize text-center">Real-Time Collaboration</h3>
+              <p class="text-center capitalize max-w-md leading-normal text-sm md:text-base">Cloud solutions are designed to work across various operating systems and devices, Whether team members use iOS, Android, Windows, or macOS.</p>
+            </div>
+          </div>
+        </div>
+        <!-- fourth feature  -->
+        <div class="col-span-full md:col-span-3">
+          <div class="flex flex-col p-6 justify-center items-center">
+            <div class="h-24 mb-3 ">
+              <img src="./src/images/icon-any-file.svg" alt="icon-any-file">
+            </div>
+            <div class="mt-2">
+              <h3 class="text-xl p-4 font-bold capitalize text-center">Access any files from anywhere</h3>
+              <p class="text-center capitalize max-w-md leading-normal text-sm md:text-base">Store and access any file format. Seamless work across devices and locations, enabling efficient collaboration and productivity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <script type="module" src="./main.js"></script>
