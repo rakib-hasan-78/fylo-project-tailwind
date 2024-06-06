@@ -11,10 +11,10 @@
   <header id="header">
     <div class="container max-w-6xl mx-auto mt-10 md:mt-5 px-6 h-40 md:h-20 text-center">
       <div class="flex flex-col md:flex-row justify-between md:mt-4 space-x-5">
-        <div class="bg-logo-light-mode dark:bg-logo-dark-mode bg-no-repeat bg-center w-48 h-20 mx-auto md:mx-0"></div>
+        <div class="bg-logo-light-mode dark:bg-logo-dark-mode bg-no-repeat bg-center w-48 h-20 mx-auto md:mx-0 cursor-pointer"></div>
         <div class="flex justify-center items-center space-x-4 md:space-x-10 mt-3">
-          <a href="#Features" id="features" class="hover:text-cyan-500 duration-200 capitalize transition-all text-sm">features</a>
-          <a href="#" id="testimonials" class="hover:text-cyan-500 duration-200 capitalize transition-all text-sm">testimonials</a>
+          <a href="#Features" id="#features" class="hover:text-cyan-500 duration-200 capitalize transition-all text-sm">features</a>
+          <a href="#testimonials" id="#" class="hover:text-cyan-500 duration-200 capitalize transition-all text-sm">testimonials</a>
           <button id="toggle-btn" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 hover:dark:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg transition-all duration-200 text-sm">
 
                       <!-- light icon  -->
@@ -144,7 +144,7 @@
     </div>
   </section>
   <!-- testimonial section  -->
-  <section id="testimonial" class="bg-gray-50 dark:bg-gray-800 p-4 pb-56">
+  <section id="testimonials" class="bg-gray-50 dark:bg-gray-800 p-4 pb-56">
     <div class="container max-w-6xl mx-auto p-3">
       <div class="relative flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:space-x-16">
           <img src="./src/images/bg-quotes.png" alt="icon-quote" class="absolute w-10 lg:w-20 -top-3.5 lg:-top-16 left-1">
@@ -205,7 +205,7 @@
     </div>
   </section>
   <!-- early access section  -->
-  <section id="early-access" class="relative px-6 md:px-0 bg-gray-950 py-10">
+  <section id="early-access" class="relative px-6 md:px-0 bg-gray-900 py-10">
     <div class="relative -top-40 container max-w-4xl mx-auto p-10 px-6 md:px-16 bg-gray-300 dark:bg-zinc-950 rounded-md shadow-xl">
       <h5 class="text-2xl capitalize text-center md:text-left  font-bold">Get early access today</h5>
       <p class="text-sm capitalize text-center md:text-left leading-6 py-5">
@@ -221,6 +221,52 @@
        </div>
     </div>
   </section>
+  <footer class="bg-gray-900">
+    <div class="container max-w-6xl mx-auto py-10 flex flex-col md:flex-row items-center md:items-start justify-between space-y-10 md:space-y-0">
+      <!-- footer logo -->
+      <div class="bg-logo-light-mode dark:bg-logo-dark-mode h-20 w-48 bg-no-repeat bg-top cursor-pointer mx-auto md:mx-0"></div>
+      <!-- email and phone number  -->
+      <div class="flex flex-col space-y-3">
+        <div class="flex space-x-4">
+          <div class="w-6">
+            <img src="./src/images/icon-phone.svg" alt="icon-phone" class="scale-100">
+          </div>
+          <div class="-mt-2">+1-543-123-4567</div>
+        </div>
+        <div class="flex space-x-4">
+          <div class="w-6">
+            <img src="./src/images/icon-email.svg" alt="icon-phone" class="scale-100">
+          </div>
+          <div class="-mt-2">example@fylo.com</div>
+        </div>
+      </div>
+      <!-- menus  -->
+      <div class="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-20">
+        <div class="flex flex-col space-y-2">
+          <a href="#">About</a>
+          <a href="#">Jobs</a>
+          <a href="#">Press</a>
+          <a href="#">Blog</a>
+        </div>
+        <div class="flex flex-col space-y-2">
+          <a href="#">Contact Us</a>
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
+      <!-- social media  -->
+      <div class="flex space-x-8 justify-center">
+        <img src="./src/images/facebook.svg" alt="" class="p-2 bg-gray-950 rounded-full cursor-pointer ficon">
+        <img src="./src/images/twitter.svg" alt="" class="p-2 bg-gray-950 rounded-full cursor-pointer ficon">
+        <img src="./src/images/instagram.svg" alt="" class="p-2 bg-gray-950 rounded-full cursor-pointer ficon">
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto h-0.5 bg-gray-800 mb-2"></div>
+    <div class="flex flex-col md:flex-row max-w-6xl items-center justify-between mx-auto text-xs font-extralight capitalize">
+        <p id="copy-right"></p>
+        <p id="credit"></p>
+    </div>
+  </footer>
   <script type="module" src="./main.js"></script>
   </body>
 </html>
